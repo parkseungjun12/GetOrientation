@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<com.example.getorientation.AzimuthView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    ></com.example.getorientation.AzimuthView>
+    <com.example.getorientation.AzimuthView
+        android:id="@+id/azimuthView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.example.getorientation.AzimuthView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
